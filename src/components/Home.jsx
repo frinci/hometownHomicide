@@ -108,7 +108,7 @@ class Home extends Component {
                                 <h2>Oct <span>2020</span></h2>
                                 <h2>Episode <span>1</span></h2>
                             </div>
-                            <p>On May 10 1990, cute, cherup-faced, four-year-old Jessica Martinez was making mud pies outside ther Timber Cove Apartments in Bakersfield, CA. Her stepfather was watching her and her two brothers. At some point, he turned away from the window he watched from, and in that short time, little Jessica was taken</p>
+                            <p>On May 10 1990, cute, cherup-faced, four-year-old Jessica Martinez was making mud pies outside ther Timber Cove Apartments in Bakersfield, CA. Her stepfather was watching her and her two brothers. At some point, he turned away from the window he watched from, and in that short time, little Jessica was taken.</p>
 
                             <div className="socialBox">
                                 <ul>
