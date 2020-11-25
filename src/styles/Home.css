@@ -1,0 +1,37 @@
+body {
+    background-color: black;
+}
+
+h1 {
+    font-family: "Special Elite", cursive;
+    color: white;
+    font-weight: normal;
+}
+
+.hero {
+    width: 100vw;
+    height: auto;
+    margin-top: 80px;
+}
+
+.aboutBox {
+    background: #414141;
+    width: 100vw;
+    height: 400px;
+    margin-top: -5px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.janiceFace {
+    height: 20em;
+}
+
+.socialBox {
+    display: flex;
+    margin: 0 auto;
+}
+
+ul img {
+    height: 50px;
+}
