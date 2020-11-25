@@ -8,6 +8,18 @@ h1 {
     font-weight: normal;
 }
 
+h2 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+p {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .hero {
     width: 100vw;
     height: auto;
@@ -17,8 +29,11 @@ h1 {
 .aboutBox {
     background: #414141;
     width: 100vw;
-    height: 400px;
+    height: auto;
     margin-top: -5px;
+}
+
+.gridBox {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
@@ -29,9 +44,33 @@ h1 {
 
 .socialBox {
     display: flex;
-    margin: 0 auto;
+    justify-content: center;
 }
 
 ul img {
     height: 50px;
+}
+
+.dateBox {
+    display: flex;
+    justify-content: center;
+}
+
+.episode {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+span {
+    font-family: "Special Elite", cursive;
+}
+
+.date {
+    position: relative;
+    left: 60px;
+}
+
+.dateBox h2{
+    margin-top: 50px;
+    margin-right: 20px
 }
