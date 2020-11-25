@@ -47,6 +47,8 @@ class Home extends Component {
                     <img src={hero} className='hero' alt="the Bakersfiled sign over Buck Owen's boulevard in Bakersfield, Ca, with the title 'Howetown Homicide' overlayed"/>
                 </div>
 
+                <a id="About"></a>
+
                 <div className="aboutBox">
                     <div className="gridBox">
                         <img src={headshot} className='janiceFace' alt="Janice Bondurant facing right with Hometown Homicide caution tape overlayed on the picture"/>
@@ -69,6 +71,7 @@ class Home extends Component {
                 </div>
 
                 <div className='episode'>
+                    <a id="Episodes"></a>
                     <div className='epTextBox'>
                         <h1>Casarez Rampage</h1>
                         <div className='dateBox'>
@@ -80,10 +83,10 @@ class Home extends Component {
 
                         <div className="socialBox">
                             <ul>
-                                <li><a href="https://www.podcastics.com/podcast/hometown-homicide/" target="_blank"><img src={podcasticsW} alt="podcastics icon"/></a></li>
-                                <li><a href="https://open.spotify.com/show/2ZH9Q4awzlDx5ZSaCF14Ez" target="_blank"><img src={spotifyW} alt="spotify icon"/></a></li>
+                                <li><a href="https://www.podcastics.com/podcast/episode/casarez-rampage-40842/" target="_blank"><img src={podcasticsW} alt="podcastics icon"/></a></li>
+                                <li><a href="https://open.spotify.com/episode/2njzTnonoFasANMHUoWgN6" target="_blank"><img src={spotifyW} alt="spotify icon"/></a></li>
                                 <li><a href="https://feeds.podcastics.com/podcastics/podcasts/rss/1331_4af15ea75c9fed663911076a5742b1e0.rss" target="_blank"><img src={rssW} alt="rss icon"/></a></li>
-                                <li><a href="https://podcasts.apple.com/us/podcast/hometown-homicide/id1537193559" target="_blank"><img src={applepodw} alt="apple podcasts icon"/></a></li>
+                                <li><a href="https://podcasts.apple.com/us/podcast/casarez-rampage/id1537193559?i=1000498395133" target="_blank"><img src={applepodw} alt="apple podcasts icon"/></a></li>
                             </ul>
                         </div>
                     </div>
@@ -109,10 +112,10 @@ class Home extends Component {
 
                             <div className="socialBox">
                                 <ul>
-                                    <li><a href="https://www.podcastics.com/podcast/hometown-homicide/" target="_blank"><img src={podcasticsB} alt="podcastics icon"/></a></li>
-                                    <li><a href="https://open.spotify.com/show/2ZH9Q4awzlDx5ZSaCF14Ez" target="_blank"><img src={spotifyb} alt="spotify icon"/></a></li>
+                                    <li><a href="https://www.podcastics.com/podcast/episode/jessica-martinez-38827/" target="_blank"><img src={podcasticsB} alt="podcastics icon"/></a></li>
+                                    <li><a href="https://open.spotify.com/episode/1rBm3dyQtjaP9iDaru3AZr" target="_blank"><img src={spotifyb} alt="spotify icon"/></a></li>
                                     <li><a href="https://feeds.podcastics.com/podcastics/podcasts/rss/1331_4af15ea75c9fed663911076a5742b1e0.rss" target="_blank"><img src={rssb} alt="rss icon"/></a></li>
-                                    <li><a href="https://podcasts.apple.com/us/podcast/hometown-homicide/id1537193559" target="_blank"><img src={applepodb} alt="apple podcasts icon"/></a></li>
+                                    <li><a href="https://podcasts.apple.com/us/podcast/jessica-martinez/id1537193559?i=1000495862128" target="_blank"><img src={applepodb} alt="apple podcasts icon"/></a></li>
                                 </ul>
                             </div>
                         </div>
@@ -127,6 +130,7 @@ class Home extends Component {
                 </div>
 
                 <div className='musicBox'>
+                <a id="Music"></a>
                 <div className="gridBox">
                         <img src={musician} className='musicFace' alt="Headshot of musician Ariel Dyer"/>
 
@@ -142,6 +146,24 @@ class Home extends Component {
                     </div>
                     
                 </div>
+
+                {/* <div className='contactBox'>
+                    <h1>Contact Us</h1>
+                    <form className="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" data-netlify="true">
+                        <p>
+                            <label>Name <input type="text" name="name" /></label>   
+                        </p>
+                        <p>
+                            <label>Email <input type="email" name="email" /></label>
+                        </p>
+                        <p>
+                            <label>Message <textarea name="message"></textarea></label>
+                        </p>
+                        <p>
+                            <button className='contactButton' type="submit">SEND</button>
+                        </p>
+                    </form>
+                </div> */}
             </div>
         )
     }
