@@ -12,6 +12,7 @@ nav img {
     position: absolute;
     margin-top: 3px;
     left: 1%;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, .5);
 }
 
 ul {
