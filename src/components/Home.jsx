@@ -92,10 +92,10 @@ class Home extends Component {
                     </div>
 
                     <div className='epPixBox'>
-                            <img src={javier} alt="close up of Javier Casarez"/>
-                            <img src={grave} alt="Javier Casarez's grave"/>
-                            <img src={map} alt="map of shootings in Bakersfield, CA"/>
-                            <img src={standoff} alt="sherrif standoff with Casarez"/>
+                            <img src={javier} className='img1' alt="close up of Javier Casarez"/>
+                            <img src={grave} className='img2' alt="Javier Casarez's grave"/>
+                            <img src={map} className='img3' alt="map of shootings in Bakersfield, CA"/>
+                            <img src={standoff} className='img4' alt="sherrif standoff with Casarez"/>
                             <p className='copyright'>Felix Adamo/The Bakersfield Californian via the Associated Press</p>
                     </div>
                 </div>
@@ -121,10 +121,10 @@ class Home extends Component {
                         </div>
 
                         <div className='epPixBox'>
-                                <img src={lightsey1} alt="mugshot of Christopher Lightsey 1995"/>
-                                <img src={lightsey2} alt="Christopher Lightsey in court 2015"/>
-                                <img src={jessica} alt="Two pictures of Jessica in puffed sleeve dress"/>
-                                <img src={nellie} alt="Close up of Nelliw"/>
+                                <img src={lightsey1} className='img1' alt="mugshot of Christopher Lightsey 1995"/>
+                                <img src={lightsey2} className='img2' alt="Christopher Lightsey in court 2015"/>
+                                <img src={jessica} className='img3' alt="Two pictures of Jessica in puffed sleeve dress"/>
+                                <img src={nellie} className='img4' alt="Close up of Nelliw"/>
                                 <p className='copyright'>Felix Adamo/The Bakersfield Californian via the Associated Press</p>
                         </div>
                 </div>
