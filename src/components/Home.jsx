@@ -9,6 +9,7 @@ import facebook from '../images/socials/facebookwhite.png'
 import twitter from '../images/socials/twitterwhite.png'
 import insta from '../images/socials/instagramwhite.png'
 import bandcamp from '../images/socials/Bandcampwhite.png'
+import mike from '../images/mikeam.jpeg'
 
 import podcasticsW from '../images/socials/Podcasticswhite.png'
 import spotifyW from '../images/socials/Spotifywhite.png'
@@ -141,6 +142,19 @@ class Home extends Component {
 
                         <form action="https://arieldyer.bandcamp.com/">
                             <input type="submit" formtarget="_blank" className='musicButton' value="LISTEN ON BANDCAMP" />
+                        </form>
+                        </div>
+                    </div>
+
+                    <div className="gridBox">
+                        <img src={mike} className='musicFace' alt="Headshot of musician mike in the am"/>
+
+                        <div className='textBox'>
+                            <h1>Music By MikeInTheAM</h1>
+                            <p>Music producer from Bakersfield, California.</p>
+
+                        <form action="https://mikeintheam.com/music/tracks">
+                            <input type="submit" formtarget="_blank" className='musicButton' value="VISIT MIKE'S WEBSITE" />
                         </form>
                         </div>
                     </div>
